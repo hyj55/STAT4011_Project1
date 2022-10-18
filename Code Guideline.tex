@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{underscore}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{bbm}
+\hypersetup{hidelinks,
+	colorlinks=true,
+	allcolors=black,
+	pdfstartview=Fit,
+	breaklinks=true}
+
+\usepackage{enumerate,authblk,indentfirst,authblk,ragged2e}
+\usepackage{graphicx} 
+\usepackage{float}
+\usepackage{subfigure} 
+\setlength{\parskip}{0.5em} 
+\setlength{\parindent}{0em}
+\geometry{a4paper,left=1.8cm,right=1.8cm,top=2.2cm,bottom=2.2cm}
+\title{A Guideline for Playing with Code}
+
+\author{DAI Qiyu 1155141616}
+{\tiny {\tiny {\scriptsize {\scriptsize {\tiny }}}}}
+
+
+
+\begin{document}
+	\maketitle
+To make it convenient to replicate our results, three ipynb files and their accompanying dataset are uploaded separately, so that pieces of code can be easily fixed or improved.
+
+\begin{itemize}
+	\item \textbf{data$\_$collection.ipynb and raw data.csv} \\
+	This file tries to  automatically scrap data from Lianjia website. The output is raw data.csv.
+	\item \textbf{data$\-$preprocessing.ipynb and data$\_$transformed.csv} \\
+	After importing raw data.csv, the data$\-$preprocessing.ipynb conducts data processing procedures and the output is data$\_$transformed.csv.
+	\item \textbf{model.ipynb} \\
+	It does regression analysis using the dataset data$\_$transformed.csv.
+\end{itemize}
+\end{document}
