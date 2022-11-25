@@ -1,13 +1,7 @@
 # STAT4011 Project1
 
-### data
-Lianjia_raw.csv: raw data scrapped from Lianjia website 
-
-Lianjia.csv: data after pre-processing; This file can be directly used for model fitting
-
-### code
-data_collection.ipynb: automatically scrap the data from Lianjia
-
+### documents
+The presentation slides and report for submission are included. Additionally, Code Guideline provides a simple description on how to playing with the code and data.
 
 
 
